@@ -10,5 +10,19 @@ package ejercisio2;
  * @author familia maida
  */
 public class Sabrina {
+    private String UwU;
+
+    public String getUwU() {
+        return UwU;
+    }
+
+    public void setUwU(String UwU) {
+        this.UwU = UwU;
+    }
+
+    public Sabrina(String UwU) {
+        this.UwU = UwU;
+    }
+    
     
 }
