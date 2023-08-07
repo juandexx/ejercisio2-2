@@ -11,6 +11,21 @@ package ejercisio2;
  */
 public class Sabrina {
     private String UwU;
+    private String nany;
+
+    public Sabrina(String UwU, String nany) {
+        this.UwU = UwU;
+        this.nany = nany;
+    }
+
+    public String getNany() {
+        return nany;
+    }
+
+    public void setNany(String nany) {
+        this.nany = nany;
+    }
+    
 
     public String getUwU() {
         return UwU;
